@@ -1,0 +1,208 @@
+/*nav bar style*/
+.navbar.navbar-inverse{
+	margin-bottom: 0px;
+	background-color: #28A6DE;
+	color: antiquewhite;
+	border-color: #28A6DE;
+}
+.navbar.navbar-inverse .navbar-nav>li>a{
+	color:#FBFBFD;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3vh;
+		
+}
+.navbar.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: #EE4250;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-toggle{
+	border:0px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #EE4250;
+}
+
+@media screen and (min-width: 767px){
+	.navbar-inverse .navbar-collapse{
+		float: right;
+	}
+}
+/*end of nav bar style*/
+
+
+/*h1 and pic1*/
+.my-conteiner .first-image{
+    display: flex;
+	flex-direction: column;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.first-image h1{
+	order: 1;
+	padding: 2.5vh;
+	font-family: 'Titillium Web', sans-serif;
+	width: 60%;
+	font-size: 7vh;
+	
+}
+
+.first-image div
+{
+	flex: 1;
+	color: #2EC6F7;
+	
+}
+.first-image .about-me{
+	order:2;
+	width: 30%;
+	background-image: url(../images/logo.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	padding: 3vh;
+}
+
+@media screen and (max-width: 700px){
+.first-image
+{
+	background-image: url(../images/ev-232339-unsplash-700x700.jpg);
+	height: 50vh;
+	}
+}
+@media screen and (min-width: 701px){
+.first-image
+{
+	background-image: url(../images/ev-232339-unsplash-large.jpg);
+	height: 90vh;
+	}
+}
+/*h1 and pic1 end*/
+
+
+
+
+
+
+/*portfolio*/
+h2{
+	text-align: center;
+	width: 100%;
+	font-size: 4.5vh;
+}
+.portfolio {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: 'Roboto Slab', serif;
+	margin: auto;
+	color: #f6f6f6;
+	background-color: #2EC6F7;
+	padding: 7vh;
+	}
+
+
+.portfolio img{
+	width:100%;
+	padding: 5vh;
+	height: 50vh;
+    width: 100%;
+}
+
+button{
+	text-align: center;
+	border: 5px solid #0B9BE1;
+	background-color: #0B9BE1;
+	margin: 3vh;
+	border-radius: 15px;
+	font-size: 3vh;
+    color: lightgreen;
+}
+button:hover{
+	background-color: #EE4250;
+	border:5px solid #EE4250;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 650px){
+
+.portfolio figure{
+	width: 33%;
+    background-color: #0043ff;
+    margin: 0.2vh;
+	}
+.portfolio	img{
+		height: 30vh;
+		padding: 3vh;
+	}
+	.portfolio	img{
+		height: 25vh;
+		padding: 3vh;
+	}
+	.my-conteiner2{
+		
+	}
+	.my-conteiner2 .aboutMe{
+		width: 60%;
+	}
+	div .my-photo{
+		width: 40%;
+	}
+	
+}
+
+@media screen and (min-width: 1200px){
+	.portfolio	img{
+		height: 50vh;
+		padding: 3vh;
+	}
+}
+/*portfolio end*/
+
+
+
+/*aboutme and myphoto conteiner*/
+.my-conteiner2 {
+	text-align: center;
+	display:flex;
+	font-family:'Roboto Slab', serif ;
+	background-color: #44A0D8;
+	color: #f6f6f6;
+	padding: 2.5vh;
+	
+	
+}
+
+.my-conteiner2 img{
+	border-radius: 50%;
+	padding: 2vh;
+	max-width: 30vh;
+	
+}
+h3{
+	text-align: center;
+	width: 100%;
+	font-size: 5vh;
+}
+p{
+	font-size: 2vh;
+}
+/*aboutme and myphoto conteiner end*/
+
+
+
+/*footer*/
+.my-conteiner3{
+	background-color: #034f84;
+	text-align: center;
+	flex-direction: column;
+	position: relative;
+	color: #f6f6f6;
+}
+.footer{
+	height: 20vh;
+	padding: 5vh;
+}
+/*footer end*/
+
+
+
+
