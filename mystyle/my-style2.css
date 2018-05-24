@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 /*nav bar style*/
 .navbar.navbar-inverse{
 	margin-bottom: 0px;
