@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:Black" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="mystyle/my-style2.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-collapse">
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -26,10 +26,10 @@
       <a class="navbar-brand" href="#"><div></div></a>
 	</div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      	<ul class="nav navbar-nav">
-			<li><a href="#">About me</a></li>
-        	<li><a href="#">Portfolio</a></li> 
-        	<li><a href="#">Contact</a></li> 
+      	<ul class="nav navbar-nav nav-tabs" role="tablist">
+			<li><a href="#AboutMe">About me</a></li>
+        	<li><a href="#Portfolio">Portfolio</a></li> 
+        
       	</ul>
     	</div>
   </div>
@@ -45,7 +45,7 @@
 	
 	
 	<div class="my-conteiner1">
-		<div class="portfolio"><h2>PORTFOLIO</h2>
+		<div id="Portfolio" class="portfolio"><h2>PORTFOLIO</h2>
 			<figure class="kan4">
   <img src="images/Screenshot-2018-4-25%20matetiau%20Logs-Analysis-Project-Udacity-Full-Stack(1).png" alt="Nadlan" width="200" height="150">
    <a href="https://github.com/matetiau/Logs-Analysis-Project-Udacity-Full-Stack"><button>Logs Analysis Python Project</button></a> 
@@ -64,7 +64,7 @@
 	
 
 <div class="my-conteiner2" id="port">
-	<div class="aboutMe"><h3>About me</h3><p>Hello Im Matthew Kamer. I'm web developer for three months now.</p>
+	<div id="AboutMe" class="aboutMe"><h3>About me</h3><p>Hello Im Matthew Kamer. I'm web developer for three months now.</p>
 			<p>My front-end skills are HTML, CSS.<p>
 			<p>My back-end skills are Python, Flask, SQL.<p>
 	</div>
