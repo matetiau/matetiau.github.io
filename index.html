@@ -1,85 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Portfolio Site</title>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:Black" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="mystyle/my-style2.css">
-</head>
-<body data-spy="scroll" data-target="#navbar-collapse">
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#"><div></div></a>
-	</div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      	<ul class="nav navbar-nav nav-tabs" role="tablist">
-			<li><a href="#AboutMe">About me</a></li>
-        	<li><a href="#Portfolio">Portfolio</a></li> 
-        
-      	</ul>
-    	</div>
-  </div>
-</nav>
-	
-	
-<div class="my-conteiner">
-	<div class="first-image">
-    	<div><h1>Welcome to my website.</h1></div>
-	 	<div class="about-me"></div>
-	</div>
-</div>
-	
-	
-	<div class="my-conteiner1">
-		<div id="Portfolio" class="portfolio"><h2>PORTFOLIO</h2>
-			<figure class="kan4">
-  <img src="images/Screenshot-2018-4-25%20matetiau%20Logs-Analysis-Project-Udacity-Full-Stack(1).png" alt="Nadlan" width="200" height="150">
-   <a href="https://github.com/matetiau/Logs-Analysis-Project-Udacity-Full-Stack"><button>Logs Analysis Python Project</button></a> 
-</figure>	
-			<figure class="kan3">
-  <img src="images/movie-site.png" alt="Nadlan" width="200" height="150">
-   <a href="https://github.com/matetiau/ud036_StarterCode"><button>Python Movie Site Maker-GithubLink</button></a>  
-</figure>
-			
-			<figure class="kan4">
-  <img src="images/logo.png" alt="Nadlan" width="200" height="150">
-   <a href="https://codepen.io/extasy2134/"><button>codepen.io-profile</button></a> 
-</figure>	
-		</div>
-	</div>
-	
-
-<div class="my-conteiner2" id="port">
-	<div id="AboutMe" class="aboutMe"><h3>About me</h3><p>Hello Im Matthew Kamer. I'm web developer for three months now.</p>
-			<p>My front-end skills are HTML, CSS and JavaScript.<p>
-			<p>My back-end skills are Python, Flask, SQL, NodeJS.<p>
-	</div>
-		<div class="my-photo"><img src="images/photo1-700x700.png" alt="The Pulpit Rock"></div>
-</div>
-	
-	
-<div class="my-conteiner3">
-    <div class="footer"><p>Contact:</p><p>E-mail:matekamer@gmail.com</p><p>Tel: 0546217559</p></div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-</div>
-		
-	
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="js/main.js"></script>
-	
+    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+</head>
 
-	</body>
+
+<body>
+<main>
+  
+ 
+    <!--- navbar --->
+<div class="top">
+  <nav id="navbar">
+    <ul>
+      <li id="linkaa"><a class="link skills-nav"  href=#skills id="kompo">Skills</a></li>
+      <li id="koko"><a class="link" href=#projects id="portfoliooo">Portfolio</a></li>
+        <li id="conta" ><a class="link conta-nav" id="kola" href=#contact>Contact</a></li>
+    </ul>
+      </nav>
+  <!--- about me --->
+    
+  <div class="about-me" id="welcome-section">
+    
+    <div class="mee" id="me">
+        <h1>Matthew Kamer<br>
+        Web-Developer</h1>
+      </div>
+    <div class="aboutme" id="about-me">
+    <p>Hello on my site. I'm self taught web developer.<br>
+      I like to build web sites that are clean and simple<br>
+      but also use advanced solutions when needed.<br>
+      You can check my projects in Portfolio section</p>
+    </div>
+    
+
+    </div></div>
+    <!--- skills --->
+   
+      <div class="skills" id="skills"><div class="title"></div>
+        <div class="box"><div class="item1"><i class="devicon-javascript-plain"></i></div>
+        <div class="item1"><i class="devicon-html5-plain-wordmark colored"></i>
+</div>
+        <div class="item1"><i class="devicon-css3-plain-wordmark"></i></div>
+             <div class="item1"><i class="devicon-react-original-wordmark colored"></i>
+</div>  
+          <div class="item1"><i class="devicon-nodejs-plain-wordmark colored"></i></div>
+        <div class="item1"><i class="devicon-bootstrap-plain-wordmark colored"></i>
+</div>
+            <div class="item1"><i class="devicon-python-plain-wordmark"></i></div>
+      
+<div class="item1"><i class="devicon-linux-plain colored"></i></div>
+            
+        
+            <div class="item1"><i class="devicon-postgresql-plain colored"></i>
+</div>
+
+      
+<div class="item1"><i class="devicon-github-plain-wordmark colored"></i>
+</div>
+          
+          
+          
+          
+          </div>
+         
+
+
+</div>
+     
+    <!--- portfolio --->
+    <div id="projects" class="portfolio-container">
+        <div class="project-tile " id="link-left" ><h3>Quote-Machine</h3><a href="https://kamer-quote-machine.herokuapp.com/"><img class="imo"   src="css/my-quote.jpg"></a><a href="https://github.com/matetiau/quote-machine-app"><h4>Code on GitHub</h4></a></div>
+      <div class="project-tile" id="link-center"><a id="profile-link" target="_blank" href="https://github.com/matetiau">Bitcoin Site on code-pen</a></div>
+     
+      <div class="project-tile" id="link-right"><a href="https://codepen.io/extasy2134/pen/oyZYeN">Bitcoin Site on code-pen</a></div>
+    
+      
+    </div>
+        
+    <!--- contact --->
+    
+    
+    <div class="contact" id="contact">
+        <div class="title1"></div>
+        <div class="contact1"><i class="devicon-github-plain-wordmark colored"></i></div>
+        
+        <div class="contact1"><i class="fa fa-linkedin-square" style="color:skyblue"></i></div>
+   <!--- copyright --->
+    
+   
+        <div class="copyright"><h4>&copy; 2018 MATTHEW KAMER ALL RIGHTS RESERVED</h4>
+    </div>
+    
+    
+    </div>
+    
+    
+      
+   
+    
+   
+    </main>
+    
+     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/script.js"></script>
+    </body>
+  </html>
