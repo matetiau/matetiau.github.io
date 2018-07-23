@@ -90,6 +90,7 @@ p{
     padding-left: 0;
     
 }
+    
 .conta-nav{
     padding-right: 0;
 }
@@ -102,6 +103,9 @@ p{
     .project-tile{
         width: 29.3% !important;
         
+    }
+    .portfolio-container{
+        margin-top: 0;
     }
 }
 /*nav*/
@@ -210,7 +214,7 @@ li a {
     position: relative;
     
     padding: 5%;
-    margin-top: 100px;
+    margin-top: 150px;
     
     background-repeat: no-repeat;
     display: flex;
