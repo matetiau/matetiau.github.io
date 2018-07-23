@@ -255,26 +255,34 @@ li a {
     position: relative;
     margin: 12%;
     margin-bottom: 0px;
-   
+    transition: transform .2s;
     
 }
 .imo:hover{
+    transform: scale(1.2);
     
-    filter:opacity(30%);
-    transition: filter 1s;
 }
-
+.go-to{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 150px;
+    color:#F7C502;
+    background-color:rgba(0,0,0,0.5);
+}
 .project-title a{
     text-decoration: none;
 }
 #link-left{
     position: relative;
-    
+   
     
 }
+ #profile-link{
+        text-decoration: none;
+    }
 #link-right{
     position: relative;
-    
+    text-decoration: none;
 }
 #link-center{
     position: relative;

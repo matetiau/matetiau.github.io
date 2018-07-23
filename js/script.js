@@ -1,5 +1,4 @@
-$(document).ready(function()
-                  {
+
 window.onscroll = function() {
     /*navbar animation*/
     if ( document.documentElement.scrollTop > 400) {
@@ -35,17 +34,17 @@ window.onscroll = function() {
     document.getElementById('portfoliooo').style.backgroundColor ='inherit';
     document.getElementById('kola').style.backgroundColor ='inherit';
     
-    if (document.documentElement.scrollTop >1000 && document.documentElement.scrollTop < 1400 ){
+    if (document.documentElement.scrollTop >1000 && document.documentElement.scrollTop < 1650 ){
     document.getElementById('portfoliooo').style.backgroundColor ='#F7C502';
     document.getElementById('kompo').style.backgroundColor ='inherit';
     }
     
-    if (document.documentElement.scrollTop > 1401 ){
+    if (document.documentElement.scrollTop > 1651 ){
     document.getElementById('portfoliooo').style.backgroundColor ='inherit';
     document.getElementById('kola').style.backgroundColor ='#F7C502';
     
     }
-    if (document.documentElement.scrollTop < 300 || document.documentElement.scrollTop > 1301 ){
+    if (document.documentElement.scrollTop < 300 || document.documentElement.scrollTop > 1651 ){
         document.getElementById('kompo').style.backgroundColor ='inherit';
     }
     
@@ -56,8 +55,48 @@ window.onscroll = function() {
 window.sr = ScrollReveal();
 sr.reveal('.item1', {duration: 1200 }, 320);
     
-});
 
+
+
+document.getElementById('lak').addEventListener("mouseover", function( event ) {   
+    
+    event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
+
+    
+    
+  });
+document.getElementById('lak').addEventListener("mouseleave", function( event ) {   
+    
+    event.target.innerHTML = "";
+
+    
+  });
+document.getElementById('laka').addEventListener("mouseover", function( event ) {   
+    
+    event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
+
+    
+    
+  });
+document.getElementById('laka').addEventListener("mouseleave", function( event ) {   
+    
+    event.target.innerHTML = "";
+
+    
+  });
+    document.getElementById('lakaa').addEventListener("mouseover", function( event ) {   
+    
+    event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
+
+    
+    
+  });
+document.getElementById('lakaa').addEventListener("mouseleave", function( event ) {   
+    
+    event.target.innerHTML = "";
+
+    
+  });
 
 
 
