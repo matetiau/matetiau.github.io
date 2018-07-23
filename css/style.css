@@ -276,7 +276,10 @@ li a {
     position: relative;
     
 }
-
+.github-link:hover{
+    background-color: #F7C502;
+    color:aliceblue;
+}
 /*contact*/
 
 .contact{
