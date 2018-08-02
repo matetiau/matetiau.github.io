@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    color: #F5F5F5;
+    color: #E8E8E8;
 }
 
 
@@ -12,7 +12,7 @@ body{
    
     display: flex;
     flex-direction:column;
-     max-width: 75ch;
+     
     position: absolute;
     top: 25%;
     width: 100%;
@@ -26,7 +26,9 @@ body{
     color: white;
     
 }
-
+#description{
+    margin: 0 20% 0 20%;;
+}
 
 
 .nom{
@@ -53,7 +55,7 @@ body{
     
 }
 @keyframes mymovecenter {
-    from {top: -300px;}
+    from {top: -500px;}
     to {top: 0px;}
     
 }
@@ -67,8 +69,13 @@ body{
 @media only screen and (max-width: 680px) {
     .about-me{
         top: 7%;
-       
+        font-size: 9px;
     }
+    .project-tile{
+        width: 100% !important;
+        
+        }
+    
     .top{
         font-size: 9px;
     }
@@ -84,7 +91,7 @@ body{
     }
     
     .item1{
-        width: 50% !important;
+        width: 46% !important;
         height: 20% !important;
     }
     .contact{
@@ -92,7 +99,7 @@ body{
     }
     .top{
         background-size: contain;
-        height: 70vh;
+        height: 40vh;
         
     }
     .skills-nav{
@@ -108,18 +115,7 @@ body{
     } 
     
 }
-@media only screen and (min-width: 680px) {
-    .project-tile{
-        width: 29.3%;
-        
-    }
-    .portfolio-container{
-        margin-top: 0;
-    }
-    .go-to{
-   
-        font-size: 30px;}
-}
+
 /*nav*/
 
 #navbar {
@@ -165,15 +161,15 @@ a.link {
 }
 
 li a:hover{
-    background: #F7C502 !important;
-    color: aliceblue !important;
+    background-color: white !important;
+    
     color: 	#232b2b;
   
 }
 li a {
     display: block;
     height: 100%;
-    line-height: 8vh;
+    line-height: 8.1vh;
     
 }
 .skills-nav{
@@ -204,27 +200,24 @@ li a {
      display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 125px;
-    
-    padding: 2%;
-    
-    
-   
-  
-   
-    
+     
+    padding: 2%;  
     
 }
 .item1{
     margin: 2%;
+    font-size: 125px;  
     width: 29.3%;
-    
-    
-   
     background-color: white;
     -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+#title{
+    text-align: center;
+    width: 100%;
+    color: #353839;
+    margin-top: 3%;
 }
 /*port*/
 
@@ -240,56 +233,71 @@ li a {
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
-    
+    margin-bottom: 10%;
     color: #F7C502;
     
 }
 .project-tile{
-   
-    margin: 2%;
-    height: 300px;
+     margin: 2%;
+    width: 29.3%;
     text-align: center;
     -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+    display: flex;
+    height: 65vh;
     
-     
     
 }
-.quote-mach-image{
+#link-pic{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#link-pic h3{
+    width: 100%;
+    height: 5%;
+   
+}
+
+.github-link{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+#about-project{
+    width: 50%;
+    display: flex;
+}
+#prokoIn{
     background-image:url(my-quote.jpg);
-   
-   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 10% 0 10%;
+    width: 80%;
+    transition: transform .2s;
+    height: 75%;
+    text-decoration: none;
 }
-.code-pen-image{
-    background-image:url(code-pen.jpg);
-    
-}
+
 .home-image{
     background-image:url(home.jpg);
    
 }
-.imo{
-     background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-    position: relative;
-    
-    
-    transition: transform .2s;
-    
-}
-.imo:hover{
-    transform: scale(1.2);
-    
+
+#prokoIn:hover{
+    transform: scale(1.2); 
 }
 .go-to{
     text-decoration: none;
     font-size: 15px;
     line-height: 150px;
-    color:#F7C502;
-    background-color:rgba(0,0,0,0.5);
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 0px;
 }
 .project-title a{
     text-decoration: none;
@@ -299,21 +307,11 @@ li a {
    
     
 }
- #profile-link{
-        text-decoration: none;
-    }
-#link-right{
-    position: relative;
-    text-decoration: none;
-}
-#link-center{
+.portfolio-container > div{
     position: relative;
     
 }
-.github-link:hover{
-    background-color: #F7C502;
-    color:aliceblue;
-}
+
 /*contact*/
 
 .contact{
@@ -340,4 +338,5 @@ li a {
     text-align: center;
     width: 100%;
     font-family: monospace;
+    color: black;
 }

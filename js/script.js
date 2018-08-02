@@ -58,45 +58,20 @@ sr.reveal('.item1', {duration: 1200 }, 320);
 
 
 
-document.getElementById('lak').addEventListener("mouseover", function( event ) {   
+document.getElementById('prokoIn').addEventListener("mouseover", function( event ) {   
     
     event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
 
     
     
   });
-document.getElementById('lak').addEventListener("mouseleave", function( event ) {   
+document.getElementById('prokoIn').addEventListener("mouseleave", function( event ) {   
     
     event.target.innerHTML = "";
 
     
   });
-document.getElementById('laka').addEventListener("mouseover", function( event ) {   
-    
-    event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
 
-    
-    
-  });
-document.getElementById('laka').addEventListener("mouseleave", function( event ) {   
-    
-    event.target.innerHTML = "";
-
-    
-  });
-    document.getElementById('lakaa').addEventListener("mouseover", function( event ) {   
-    
-    event.target.innerHTML = "<h4 class=go-to>Go to the project!</h4>";
-
-    
-    
-  });
-document.getElementById('lakaa').addEventListener("mouseleave", function( event ) {   
-    
-    event.target.innerHTML = "";
-
-    
-  });
 
 
 
